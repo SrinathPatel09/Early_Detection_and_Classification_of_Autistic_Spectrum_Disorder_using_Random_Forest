@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Early Detection and Classification of Autistic Spectrum Disorder using Random Forest</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom right, #ff9999, #99ccff);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: black;
+            margin: 10px 0;
+            font-size: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+
+        .prediction {
+            text-align: center;
+        }
+
+        .predict-button {
+            display: block;
+            width: 120px;
+            margin: 0 auto;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .predict-button:hover {
+            background-color: #45a049;
+        }
+
+        .info-link {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .info-link:hover {
+            background-color: #0056b3;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Early Detection and Classification of Autistic Spectrum Disorder using Random Forest</h1>
+        <div class="prediction">
+            <h2>{{ prediction }}</h2>
+        </div>
+        <br>
+        <a href="/" class="predict-button">Back to home</a>
+        <br>
+        <br>
+        <h3>To find more info about autism click the link below</h3>
+        <a href="https://www.mayoclinic.org/diseases-conditions/autism-spectrum-disorder/diagnosis-treatment/drc-20352934#:~:text=Treatment%20options%20may%20include%3A,behaviors%20and%20teaching%20new%20skills" class="info-link" target="blank">More Info</a>
+    
+    </div>
+</body>
+</html>
